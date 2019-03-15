@@ -9,5 +9,7 @@
 </script>
 
 <style lang="scss" scoped>
-
+    #gallery {
+        height: 100vh;
+    }
 </style>

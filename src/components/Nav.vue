@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <nav id="topnav" class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <!--<a class="navbar-brand" href="#header">Chelsea Cullen</a>-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
                 aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">

@@ -2,8 +2,8 @@
     <div id="app" class="container-fluid">
         <Nav></Nav>
         <Header></Header>
-        <Gallery></Gallery>
         <Reel></Reel>
+        <Gallery></Gallery>
         <Contact></Contact>
         <Footer></Footer>
     </div>
@@ -29,14 +29,7 @@
     @import url("https://use.typekit.net/dml3adt.css");
     @import "./assets/scss/style.scss";
 
-    body, * {
-        margin: 0;
-        border: none;
-        padding: 0;
-    }
-
     #app {
-        margin-top: 56px;
         font-family: termina,sans-serif;
         font-weight: 400;
         font-style: normal;

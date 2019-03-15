@@ -9,5 +9,7 @@
 </script>
 
 <style lang="scss" scoped>
-
+    #reel {
+        height: 100vh;
+    }
 </style>
