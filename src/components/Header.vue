@@ -17,13 +17,9 @@
 <style scoped lang="scss">
     #header.jumbotron {
         height: calc(100vh - 56px);
-        background: url("../assets/images/Cullen_Chelsea_1.jpg") #999 no-repeat scroll center 30%;
+        background: url("../assets/images/Cullen_Chelsea_1.jpg") #999 no-repeat center 30%;
         background-size: cover;
         background-blend-mode: screen;
         font-weight: 700;
-
-        @media (min-width: 768px) {
-            background-attachment: fixed;
-        }
     }
 </style>
