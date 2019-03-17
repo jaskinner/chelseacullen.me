@@ -1,9 +1,11 @@
 <template>
     <header id="header" class="jumbotron jumbotron-fluid text-center d-flex">
-        <div class="container-fluid align-self-end">
-            <h1 class="display-2">Chelsea Cullen</h1>
-            <hr>
-            <p class="lead">Actress and Singer | Raleigh, NC</p>
+        <div class="container align-self-end">
+            <div class="col-lg-10 col-md-12 mx-auto">
+                <h1 class="display-2">Chelsea Cullen</h1>
+                <hr>
+                <p class="lead">Actress and Singer | Raleigh, NC</p>
+            </div>
         </div>
     </header>
 </template>
