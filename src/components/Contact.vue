@@ -7,7 +7,6 @@
             <div class="col-md-6 mx-auto">
                 <form
                     name="contact-me"
-                    method="post"
                     data-netlify="true"
                     data-netlify-honeypot="bot-field"
                     netlify
