@@ -1,0 +1,56 @@
+body, * {
+  margin: 0;
+  border: none;
+  padding: 0;
+}
+
+body {
+  padding-top: 56px;
+}
+
+$enable-responsive-font-sizes: true;
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import url("https://use.typekit.net/dml3adt.css");
+
+#app {
+  font-family: termina,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+#header.jumbotron {
+  height: calc(100vh - 56px);
+  background: url("../../public/images/Cullen_Chelsea_1.jpg") #999 no-repeat center 30%;
+  background-size: cover;
+  background-blend-mode: screen;
+  font-weight: 700;
+}
+
+.media-container {
+  padding: 1rem;
+}
+
+footer {
+  height: 6rem;
+
+  p {
+    margin-bottom: 0;
+  }
+}

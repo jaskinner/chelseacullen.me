@@ -27,7 +27,7 @@
 
 <style lang="scss">
     @import url("https://use.typekit.net/dml3adt.css");
-    @import "./assets/scss/style.scss";
+    @import "../public/styles/style.scss";
 
     #app {
         font-family: termina,sans-serif;
