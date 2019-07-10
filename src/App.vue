@@ -12,7 +12,7 @@
 <script>
     import Nav from './components/Nav'
     import Header from './components/Header'
-    // import Gallery from './components/Gallery'
+    import Gallery from './components/Gallery'
     import Reel from './components/Reel'
     import Contact from './components/Contact'
     import Footer from './components/Footer'
@@ -20,7 +20,7 @@
     export default {
         name: 'app',
         components: {
-            Nav, Header, Reel, Contact, Footer
+            Nav, Header, Reel, Contact, Footer, Gallery
         }
     }
 </script>
